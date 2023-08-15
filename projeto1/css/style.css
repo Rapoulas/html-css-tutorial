@@ -2,23 +2,77 @@ html, body {
     margin: 0;
 
 }
-
 header {
     background: #000;
     display: flex;
     gap: 10px;
     align-items: center;
     height: 45px;
+    color: #fff;
 }
-
+header div {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+    margin: 0 auto;
+}
 header h1 {
     margin: 0;
     color: #fff;
     font-size: 20px;
 }
-
-img {
+header img {
     width: 30px;
     height: 30px;
     margin: 0 0 0 20px;
+}
+header span {
+    margin: 0 20px 0 auto;
+}
+
+#exerc1 {
+    background: #CCC;
+    width: 170px;
+    height: 170px;
+    display: flex;
+    gap:    10px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bloco {
+    background: #000;
+    width: 60px;
+    height: 60px;
+}
+
+main {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+#sidebar-right, #sidebar-left {
+    width: 200px;
+    background: #ccc;
+    height: 500px;
+}
+
+#content {
+    width: 520px;
+    height: 500px;
+    background: #000;
+    padding: 20px;
+}
+
+footer {
+    background: #CCC;
+    height: 200px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
 }
