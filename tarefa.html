@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <title>Tech Coffee</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+     
+  <header>
+    <div class="wrapper">
+      <a href="index.html" class="logotype">
+        <img src="img/coffee-icon.svg" alt="Tech Coffee Logo">
+        <h1>Tech Coffee</h1>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><button>Cadastre-se</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    
+  <main class="wrapper">
+    <div id="sidebar-right"></div>
+    <div id="content">
+      <h1>Dados</h1>
+
+      <form>
+          <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <label for="nome">Nome: </label><input type="text" id="nome" name="nameUser"><br>
+            <label for="pass">Senha: </label><input type="password" id="pass" name="passwordUser" required><br>
+            <label for="email">Email: </label><input type="email" id="email" name="emailUser"><br>
+            <label for="idade">Idade: </label><input type="number" id="idade" name="ageUser"><br>
+          </fieldset>
+
+          <fieldset>
+            <legend>Endereço:</legend>
+            <label for="nome">Rua: </label><input type="text" id="nome" name="nameUser" required><br>
+            <label for="cep">CEP: </label><input type="text" id="cep" name="cepUser" required><br>
+          </fieldset>
+
+          <fieldset>
+            <legend>Dados de Compra:</legend>
+            <label for="card">Número do Cartão: </label><input type="number" id="card" name="cardUser" required><br>
+            <input type="radio" id="pago" name="premium" value="Y" checked> <label for="pago">Entrega Rapida (Custo Adicional)</label><br>
+            <input type="radio" id="gratis" name="premium" value="N"> <label for="gratis">Entrega Normal</label><br>
+            <br>
+            <input type="submit" value="Finalizar Compra">
+          </fieldset>
+
+        </form>
+    </div>
+    <div id="sidebar-left">
+      <div id="sidebar-left">
+        <div class="card">
+          <img src="img/cafe3.jpg" alt="Montanha" width="198px" height="133.59px">
+          <div>
+            <h3>Café</h3>
+            <p>Preço: 10R$</p>
+            <p>Quantidade: 1</p>
+          </div>
+        </div>
+      </div>
+  </main>
+
+  <footer>
+      <span>Rafael Cesar @ 2023</span>
+  </footer>
+  
+  </body>
+</html>
